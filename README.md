@@ -17,3 +17,7 @@ I chose to rebuild the [Etsy](http://etsy.com) product grid.
   - [ ] Create pages
 - [ ] Launch static pages
 - [ ] Launch styleguide
+
+## Notes
+
+* The custom grid system uses [eq.js](https://github.com/Snugug/eq.js) for element queries instead of relying on media queries.
