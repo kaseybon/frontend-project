@@ -1,0 +1,17 @@
+/* Site Header */
+.site-header {
+  
+}
+.site-title {
+  margin: 0;
+  padding: 0;
+  a {
+    color: $c-orange;
+    display: block;
+    width: 75px;
+    height: 36px;
+    overflow: hidden;
+    text-indent: -9999px;
+    background: url(../images/etsy.png) no-repeat;
+  }
+}

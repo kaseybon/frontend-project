@@ -1,0 +1,70 @@
+/* Grid */
+.grid-container {
+  clear: both;
+  overflow: hidden;
+}
+.grid-item {
+  box-sizing: border-box;
+}
+.grid-max-2, .grid-max-3, .grid-max-4, .grid-max-5 {
+  .grid-item {
+    [data-eq-state$="is-2-col"] &,
+    [data-eq-state$="is-3-col"] &,
+    [data-eq-state$="is-4-col"] &,
+    [data-eq-state$="is-5-col"] & {
+      width: 50%;
+      float: left;
+      &:nth-child(odd) {
+        clear: left;
+      }
+    }
+  }
+}
+
+.grid-max-3, .grid-max-4, .grid-max-5 {
+  .grid-item {
+    [data-eq-state$="is-3-col"] &,
+    [data-eq-state$="is-4-col"] &,
+    [data-eq-state$="is-5-col"] & {
+      width: 33.33%;
+      float: left;
+      &:nth-child(odd) {
+        clear: none;
+      }
+      &:nth-child(3n+1) {
+        clear: left;
+      }
+    }
+  }
+}
+
+.grid-max-4, .grid-max-5 {
+  .grid-item {
+    [data-eq-state$="is-4-col"] &,
+    [data-eq-state$="is-5-col"] & {
+      width: 25%;
+      float: left;
+      &:nth-child(3n+1) {
+        clear: none;
+      }
+      &:nth-child(4n+1) {
+        clear: left;
+      }
+    }
+  }
+}
+
+.grid-max-5 {
+  .grid-item {
+    [data-eq-state$="is-5-col"] & {
+      width: 20%;
+      float: left;
+      &:nth-child(4n+1) {
+        clear: none;
+      }
+      &:nth-child(5n+1) {
+        clear: left;
+      }
+    }
+  }
+}

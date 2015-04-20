@@ -8,14 +8,13 @@ Take a product grid from an ecommerce website and recreate it. Try not to look a
 
 I chose to rebuild the [Etsy](http://etsy.com) product grid.
 
-- [x] [Develop a custom grid system](http://codepen.io/kaseybon/pen/ogrLmY)
-- [ ] Install Pattern Lab
-  - [ ] Create atoms
-  - [ ] Create molecules
-  - [ ] Create organisms
-  - [ ] Create templates
-  - [ ] Create pages
-- [ ] Launch static pages
+- [x] Develop a [custom grid system](http://codepen.io/kaseybon/pen/ogrLmY)
+- [x] Install Pattern Lab
+- [x] Create atoms
+- [ ] Create molecules
+- [ ] Create organisms
+- [ ] Create templates
+- [ ] Create pages
 - [ ] Launch styleguide
 
 ## Notes
