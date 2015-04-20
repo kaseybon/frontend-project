@@ -13,22 +13,19 @@ img {
 /* Text */
 h1, h2, h3, h4, h5, h6 {
   font-family: $headerfamily;
-  line-height: 1;
+  line-height: 1.64;
   color: $c-black;
   margin: 0;
-}
-h1, h2, h3 {
-  line-height: 1.2;
 }
 p {
   margin: 0 0 $spacer;
 }
 blockquote {
-    font-style:italic;
-    border-left: 1px solid $gray;
-    color: $gray;
-  padding-left: $pad;
-  margin-bottom: $space;
+  font-style:italic;
+  border-left: 1px solid $c-mediumgray;
+  color: $c-mediumgray;
+  padding-left: $spacer;
+  margin-bottom: $spacer;
 }
 
 /* Links */
@@ -128,11 +125,11 @@ figcaption {
 hr {
   border: 0;
     height: 2px;
-    background: $gray-light-2;
-    margin: $space-double 0;
+    background: $c-lightgray2x;
+    margin: $spacer 0;
 }
 
 abbr {
-    border-bottom: 1px dotted $gray;
+    border-bottom: 1px dotted $c-mediumgray;
     cursor: help;
 }

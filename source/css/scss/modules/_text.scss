@@ -1,6 +1,40 @@
-/* Headers */
+/* Page Headers */
+.hgroup {
+  text-align: center;
+}
 .subheader {
   color: $c-mediumgray;
   font-family: $headerfamily;
   font-size: 18px;
+}
+.page-title {
+  font-size: 24px;
+}
+.page-breadcrumbs {
+  display: block;
+  font-size: 16px;
+}
+
+/* Product Elements */
+.product-price {
+  font-size: 14px;
+  color: green;
+  display: block;
+}
+.product-shop {
+  font-size: 14px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  color: $c-mediumgray;
+  display: block;  
+    float: left;
+    width: 50%;
+}
+
+/* Menu */
+.menu-title {
+  font-weight: 400;
+  font-family: $copyfamily;
+  font-size: 14px;
 }

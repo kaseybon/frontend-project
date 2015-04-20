@@ -1,9 +1,6 @@
 /*------------------------------------*\
     $BASE ELEMENTS & ATOMS
 \*------------------------------------*/
-/*------------------------------------*\
-    $VARIABLES
-\*------------------------------------*/
 body {
   background: #f5f5f1;
   font: 100%/1.5 Helvetica, Arial, sans-serif;
@@ -16,23 +13,20 @@ img {
 
 /* Text */
 h1, h2, h3, h4, h5, h6 {
-  font-family: Georgia, serif;
-  line-height: 1;
+  font-family: "Bree Serif", Georgia, serif;
+  line-height: 1.64;
   color: #000;
   margin: 0; }
-
-h1, h2, h3 {
-  line-height: 1.2; }
 
 p {
   margin: 0 0 15px; }
 
 blockquote {
   font-style: italic;
-  border-left: 1px solid #808080;
-  color: #808080;
-  padding-left: 1em;
-  margin-bottom: 1em; }
+  border-left: 1px solid #999;
+  color: #999;
+  padding-left: 15px;
+  margin-bottom: 15px; }
 
 /* Links */
 a {
@@ -117,11 +111,11 @@ figcaption {
 hr {
   border: 0;
   height: 2px;
-  background: #eee;
-  margin: 2em 0; }
+  background: #efefe8;
+  margin: 15px 0; }
 
 abbr {
-  border-bottom: 1px dotted #808080;
+  border-bottom: 1px dotted #999;
   cursor: help; }
 
 /* Grid */
@@ -165,6 +159,44 @@ abbr {
 /*------------------------------------*\
     $MODULES
 \*------------------------------------*/
+/* Page Headers */
+.hgroup {
+  text-align: center; }
+
+.subheader {
+  color: #999;
+  font-family: "Bree Serif", Georgia, serif;
+  font-size: 18px; }
+
+.page-title {
+  font-size: 24px; }
+
+.page-breadcrumbs {
+  display: block;
+  font-size: 16px; }
+
+/* Product Elements */
+.product-price {
+  font-size: 14px;
+  color: green;
+  display: block; }
+
+.product-shop {
+  font-size: 14px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #999;
+  display: block;
+  float: left;
+  width: 50%; }
+
+/* Menu */
+.menu-title {
+  font-weight: 400;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px; }
+
 /*------------------------------------*\
     $LAYOUT
 \*------------------------------------*/
