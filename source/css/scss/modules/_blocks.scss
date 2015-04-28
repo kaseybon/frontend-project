@@ -5,9 +5,9 @@
   background: $c-white;
   border-radius: $rounded;
   box-shadow: $shadow;
-  max-width: 300px;
+  /*max-width: 300px;*/
+  overflow: auto;
 }
-
 
 .card-info {
   background: $c-white;
@@ -45,8 +45,12 @@
 }
 
 /* Shop Block */
-.shop-block {
+.shop-info-block {
+  text-align: center;
   padding: $spacer;
+}
+.shop-info-avatar {
+  border-radius: 50%;
 }
 
 /* Description Block */

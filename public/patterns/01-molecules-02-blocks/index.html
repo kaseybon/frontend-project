@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width" />
 		
 		<link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="../../css/style.css?1430228848" media="all" />
+		<link rel="stylesheet" href="../../css/style.css?1430235110" media="all" />
 
 		<!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
 				<!-- never cache patterns -->
@@ -16,8 +16,8 @@
 		<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
 		<meta http-equiv="pragma" content="no-cache" />
 		
-		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?1430228848" media="all">
-		<link rel="stylesheet" href="../../styleguide/css/styleguide-specific.css?1430228848" media="all" />
+		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?1430235110" media="all">
+		<link rel="stylesheet" href="../../styleguide/css/styleguide-specific.css?1430235110" media="all" />
 		
 
 		<!-- End Pattern Lab -->
@@ -30,38 +30,31 @@
 			
 			<!-- Patterns -->
 			<div id="sg-patterns">
-					<div id="molecules-card-block" class="sg-pattern">
-						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-02-blocks-00-card-block/01-molecules-02-blocks-00-card-block.html" class="patternLink" data-patternpartial="molecules-card-block">Card Block</a></h2>
+					<div id="molecules-card-product-link" class="sg-pattern">
+						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-02-blocks-00-card-product-link/01-molecules-02-blocks-00-card-product-link.html" class="patternLink" data-patternpartial="molecules-card-product-link">Card Product Link</a></h2>
 						<div class="sg-pattern-body">
-							<div class="card-block">
-  <a href="#" class="card-link">
-    <img src="http://placehold.it/300x300" alt="Product Name" />
-    <h2 class="card-title">Product Name</h2>
-  </a>
-  <a href="#" class="card-shop">ShopName</a>
-  <span class="card-price">$100.00 <small>USD</small></span>
-</div><!-- .card-info -->
+							<a href="#" class="card-link">
+  <img src="http://placehold.it/300x300" alt="Product Name" />  <h2 class="card-title">Product Name</h2></a>
 							<div class="sg-code" style="display: none">
+									<div class="sg-code-contains">
+										This pattern contains: 
+											<a href="../../patterns/00-atoms-04-images-02-square-medium/00-atoms-04-images-02-square-medium.html"><code>atoms-square-medium</code></a>
+											<a href="../../patterns/00-atoms-02-text-11-card-title/00-atoms-02-text-11-card-title.html"><code>atoms-card-title</code></a>
+									</div>
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
-										&lt;div class=&quot;card-block&quot;&gt;
-  &lt;a href=&quot;#&quot; class=&quot;card-link&quot;&gt;
-    &lt;img src=&quot;http://placehold.it/300x300&quot; alt=&quot;Product Name&quot; /&gt;
-    &lt;h2 class=&quot;card-title&quot;&gt;Product Name&lt;/h2&gt;
-  &lt;/a&gt;
-  &lt;a href=&quot;#&quot; class=&quot;card-shop&quot;&gt;ShopName&lt;/a&gt;
-  &lt;span class=&quot;card-price&quot;&gt;$100.00 &lt;small&gt;USD&lt;/small&gt;&lt;/span&gt;
-&lt;/div&gt;&lt;!-- .card-info --&gt;
+										&lt;a href=&quot;#&quot; class=&quot;card-link&quot;&gt;
+  &lt;img src=&quot;http://placehold.it/300x300&quot; alt=&quot;Product Name&quot; /&gt;  &lt;h2 class=&quot;card-title&quot;&gt;Product Name&lt;/h2&gt;&lt;/a&gt;
 									</code>
 								</pre>
 							</div>
 						</div>
 					</div>
 					<div id="molecules-card-menu-block" class="sg-pattern">
-						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-02-blocks-00-card-menu-block/01-molecules-02-blocks-00-card-menu-block.html" class="patternLink" data-patternpartial="molecules-card-menu-block">Card Menu Block</a></h2>
+						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-02-blocks-02-card-menu-block/01-molecules-02-blocks-02-card-menu-block.html" class="patternLink" data-patternpartial="molecules-card-menu-block">Card Menu Block</a></h2>
 						<div class="sg-pattern-body">
-							<nav class="card-block">
+							<nav class="card-block" data-eq-pts="is-too-wide: 400">
   <h3 class="menu-title card-menu-title">Shop Sections</h3>
   <ul class="nav-menu card-menu">
     <li class="menu-item card-menu-item"><a href="#">Product Category <small class="card-menu-count">20</small></a></li>
@@ -75,7 +68,7 @@
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
-										&lt;nav class=&quot;card-block&quot;&gt;
+										&lt;nav class=&quot;card-block&quot; data-eq-pts=&quot;is-too-wide: 400&quot;&gt;
   &lt;h3 class=&quot;menu-title card-menu-title&quot;&gt;Shop Sections&lt;/h3&gt;
   &lt;ul class=&quot;nav-menu card-menu&quot;&gt;
     &lt;li class=&quot;menu-item card-menu-item&quot;&gt;&lt;a href=&quot;#&quot;&gt;Product Category &lt;small class=&quot;card-menu-count&quot;&gt;20&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;
@@ -90,8 +83,34 @@
 							</div>
 						</div>
 					</div>
+					<div id="molecules-shop-info-block" class="sg-pattern">
+						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-02-blocks-02-shop-info-block/01-molecules-02-blocks-02-shop-info-block.html" class="patternLink" data-patternpartial="molecules-shop-info-block">Shop Info Block</a></h2>
+						<div class="sg-pattern-body">
+							<div class="shop-info-block">
+  <a href="#" title="">
+    <img src="http://placehold.it/90x90" alt="ShopName" class="shop-info-avatar" />
+    <h1 class="shop-header">ShopName</h1>
+    <span class="shop-product-count">80 Items</span>
+  </a>
+</div>
+							<div class="sg-code" style="display: none">
+								<h3 class="sg-code-head">HTML</h3>
+								<pre class="sg-code-html">
+									<code>
+										&lt;div class=&quot;shop-info-block&quot;&gt;
+  &lt;a href=&quot;#&quot; title=&quot;&quot;&gt;
+    &lt;img src=&quot;http://placehold.it/90x90&quot; alt=&quot;ShopName&quot; class=&quot;shop-info-avatar&quot; /&gt;
+    &lt;h1 class=&quot;shop-header&quot;&gt;ShopName&lt;/h1&gt;
+    &lt;span class=&quot;shop-product-count&quot;&gt;80 Items&lt;/span&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+									</code>
+								</pre>
+							</div>
+						</div>
+					</div>
 					<div id="molecules-description-block" class="sg-pattern">
-						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-02-blocks-01-description-block/01-molecules-02-blocks-01-description-block.html" class="patternLink" data-patternpartial="molecules-description-block">Description Block</a></h2>
+						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-02-blocks-description-block/01-molecules-02-blocks-description-block.html" class="patternLink" data-patternpartial="molecules-description-block">Description Block</a></h2>
 						<div class="sg-pattern-body">
 							<div class="description-wrapper">
   <div class="description description-spacing">
@@ -118,32 +137,6 @@
   &lt;div class=&quot;description-spacing&quot;&gt;
     &lt;input type=&quot;button&quot; value=&quot;Add to Cart&quot; class=&quot;green description-cta&quot; /&gt;
   &lt;/div&gt;
-&lt;/div&gt;
-									</code>
-								</pre>
-							</div>
-						</div>
-					</div>
-					<div id="molecules-store-header-block" class="sg-pattern">
-						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-02-blocks-02-store-header-block/01-molecules-02-blocks-02-store-header-block.html" class="patternLink" data-patternpartial="molecules-store-header-block">Store Header Block</a></h2>
-						<div class="sg-pattern-body">
-							<div class="shop-block">
-  <a href="#" title="">
-    <img src="http://placehold.it/90x90" alt="ShopName" />
-    <h1 class="shop-header">ShopName</h1>
-    <span class="shop-product-count">80 Items</span>
-  </a>
-</div>
-							<div class="sg-code" style="display: none">
-								<h3 class="sg-code-head">HTML</h3>
-								<pre class="sg-code-html">
-									<code>
-										&lt;div class=&quot;shop-block&quot;&gt;
-  &lt;a href=&quot;#&quot; title=&quot;&quot;&gt;
-    &lt;img src=&quot;http://placehold.it/90x90&quot; alt=&quot;ShopName&quot; /&gt;
-    &lt;h1 class=&quot;shop-header&quot;&gt;ShopName&lt;/h1&gt;
-    &lt;span class=&quot;shop-product-count&quot;&gt;80 Items&lt;/span&gt;
-  &lt;/a&gt;
 &lt;/div&gt;
 									</code>
 								</pre>
@@ -221,10 +214,10 @@
 			
 		}
 	</script>
-	<script id="pl-js-polyfill-insert-1430228848">
+	<script id="pl-js-polyfill-insert-1430235110">
 		(function() {
 			if (self != top) {
-				var cb = '1430228848';
+				var cb = '1430235110';
 				var js = [];
 				if (typeof document !== "undefined" && !("classList" in document.documentElement)) {
 					js.push("styleguide/js/vendor/classlist-polyfill.js");
@@ -233,10 +226,10 @@
 			}
 		})();
 	</script>
-	<script id="pl-js-insert-1430228848">
+	<script id="pl-js-insert-1430235110">
 		(function() {
 			if (self != top) {
-				var cb = '1430228848';
+				var cb = '1430235110';
 				var js = [ { "src": "styleguide/js/vendor/jwerty.js", "dep": [ "styleguide/js/postmessage.js", { "src": "data/annotations.js", "dep": [ "styleguide/js/annotations-pattern.js" ] }, "styleguide/js/code-pattern.js" ] } ];
 				scriptLoader.run(js,cb,'pl-js-insert');
 			}

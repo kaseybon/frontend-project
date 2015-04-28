@@ -1,14 +1,22 @@
 /* Card Menu */
-.card-menu-title, .card-menu-item a {
+.card-menu-title {
   display: block;
   padding: $sm-spacer;
   border-bottom: 1px solid $c-lightgray3x;
 }
 .card-menu-item a {
+  display: block;
+  padding: $sm-spacer;
+  border-bottom: 1px solid $c-lightgray3x;
   font-size: 14px;
   &:hover {
     background: rgba($c-blue, $fade);
     text-decoration: none;
+  }
+  [data-eq-state$="is-too-wide"] & {
+    border-bottom: none;
+    float: left;
+    width: 50%;
   }
 }
 .card-menu-count {

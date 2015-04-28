@@ -1,17 +1,41 @@
 {{> organisms-header }}
 
-<article class="max-width">
-  {{> organisms-store-header }}
+<article class="row">
+  <header class="columns">
+    <a href="#" title="{{ store.name }}" class="store-banner">
+      <img src="{{ shop.banner-wide }}" alt=" {{ shop.name }}" class="store-banner-image" />
+    </a>
+  </header>
 
-  <main class="page-content with-sidebar">
+  <nav class="page-content columns large-3">
+    <div class="row">
+      <div class="small-4 medium-3 large-12 columns">
+        {{> molecules-shop-info-block }}
+      </div>
+      <div class="small-8 medium-9 large-12 columns">
+        {{> molecules-card-menu-block }}
+      </div>
+    </div>
+  </nav>
 
-    {{> organisms-store-product-listing }}
+  <main class="page-content columns large-9">
+
+    <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+      <li>{{> organisms-card-block }}</li>
+      <li>{{> organisms-card-block }}</li>
+      <li>{{> organisms-card-block }}</li>
+      <li>{{> organisms-card-block }}</li>
+      <li>{{> organisms-card-block }}</li>
+      <li>{{> organisms-card-block }}</li>
+      <li>{{> organisms-card-block }}</li>
+      <li>{{> organisms-card-block }}</li>
+      <li>{{> organisms-card-block }}</li>
+      <li>{{> organisms-card-block }}</li>
+      <li>{{> organisms-card-block }}</li>
+      <li>{{> organisms-card-block }}</li>
+    </ul>
 
   </main>
-
-  <aside class="sidebar">
-    {{> molecules-card-menu-block }}
-  </aside>
 
 </aricle>
 

@@ -1,17 +1,41 @@
 {{&gt; organisms-header }}
 
-&lt;article class=&quot;max-width&quot;&gt;
-  {{&gt; organisms-store-header }}
+&lt;article class=&quot;row&quot;&gt;
+  &lt;header class=&quot;columns&quot;&gt;
+    &lt;a href=&quot;#&quot; title=&quot;{{ store.name }}&quot; class=&quot;store-banner&quot;&gt;
+      &lt;img src=&quot;{{ shop.banner-wide }}&quot; alt=&quot; {{ shop.name }}&quot; class=&quot;store-banner-image&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/header&gt;
 
-  &lt;main class=&quot;page-content with-sidebar&quot;&gt;
+  &lt;nav class=&quot;page-content columns large-3&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+      &lt;div class=&quot;small-4 medium-3 large-12 columns&quot;&gt;
+        {{&gt; molecules-shop-info-block }}
+      &lt;/div&gt;
+      &lt;div class=&quot;small-8 medium-9 large-12 columns&quot;&gt;
+        {{&gt; molecules-card-menu-block }}
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/nav&gt;
 
-    {{&gt; organisms-store-product-listing }}
+  &lt;main class=&quot;page-content columns large-9&quot;&gt;
+
+    &lt;ul class=&quot;small-block-grid-2 medium-block-grid-3 large-block-grid-4&quot;&gt;
+      &lt;li&gt;{{&gt; organisms-card-block }}&lt;/li&gt;
+      &lt;li&gt;{{&gt; organisms-card-block }}&lt;/li&gt;
+      &lt;li&gt;{{&gt; organisms-card-block }}&lt;/li&gt;
+      &lt;li&gt;{{&gt; organisms-card-block }}&lt;/li&gt;
+      &lt;li&gt;{{&gt; organisms-card-block }}&lt;/li&gt;
+      &lt;li&gt;{{&gt; organisms-card-block }}&lt;/li&gt;
+      &lt;li&gt;{{&gt; organisms-card-block }}&lt;/li&gt;
+      &lt;li&gt;{{&gt; organisms-card-block }}&lt;/li&gt;
+      &lt;li&gt;{{&gt; organisms-card-block }}&lt;/li&gt;
+      &lt;li&gt;{{&gt; organisms-card-block }}&lt;/li&gt;
+      &lt;li&gt;{{&gt; organisms-card-block }}&lt;/li&gt;
+      &lt;li&gt;{{&gt; organisms-card-block }}&lt;/li&gt;
+    &lt;/ul&gt;
 
   &lt;/main&gt;
-
-  &lt;aside class=&quot;sidebar&quot;&gt;
-    {{&gt; molecules-card-menu-block }}
-  &lt;/aside&gt;
 
 &lt;/aricle&gt;
 
