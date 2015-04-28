@@ -1,0 +1,14 @@
+/* Site */
+
+.max-width {
+  max-width: $max-width;
+  margin: auto;
+}
+.sidebar {
+  width: 20%;
+  float: left;
+}
+.with-sidebar {
+  width: 80%;
+  float: right;
+}

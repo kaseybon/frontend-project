@@ -1,97 +1,45 @@
 {
 	"title" : "Etsy",
-	"htmlClass": "",
 	"bodyClass": "site",
-	"img": {
-		"square-tiny": {
-			"src": "http://placehold.it/90x90",
-			"alt": "Tiny Thumbnail"
+	"interaction": {
+		"favorite": {
+			"header": "Like this item?",
+			"sub-header": "Add it to your favorites to revisit it later."
 		},
-		"square-medium": {
-			"src": "http://placehold.it/150x150",
-			"alt": "Medium Thumbnail"
+		"request": {
+			"header": "Request a custom order",
+			"sub-header": "and have something made just for you."
 		},
-		"square-large": {
-			"src": "http://placehold.it/300x300",
-			"alt": "Large Thumbnail"
-		},
-		"banner-narrow" : {
-			"src" : "http://placehold.it/500x150",
-			"alt" : "Narrow Banner"
-		},
-		"banner-wide": {
-			"src": "http://placehold.it/760x100",
-			"alt": "Wide Banner"
-		},
-		"banner-featured": {
-			"src": "http://placehold.it/1200x600",
-			"alt": "Featured Banner"
+		"newsletter": {
+			"header": "Get top trends and fresh editors' picks in your inbox with Etsy Finds."
 		}
 	},
-	"headline" : {
-		"short" : "Lorem ipsum dolor sit (37 characters)",
-		"medium" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. (72 characters)"
+	"categories": {
+		"grandparent": {
+			"parent": {
+				"child": "I don't know what I'm doing"
+			}
+		}
 	},
-	"excerpt" : {
-		"short" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-		"medium" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-		"long" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-	},
-	"description" : "So, setting about it as methodically as men might smoke out a wasps' nest, the Martians spread this strange stifling vapour over the Londonward country. The horns of the crescent slowly moved apart, until at last they formed a line from Hanwell to Coombe and Malden. All night through their destructive tubes advanced.",
-	"url" : "#",
-	"name" : {
-		"first": "Lacy",
-		"firsti": "L",
-		"middle": "Tommie",
-		"middlei": "T",
-		"last": "Way",
-		"lasti": "W"
-	},
-	"year" : {
-		"long": "2013",
-		"short": "13"
-	},
-	"month" : {
-		"long": "February",
-		"short": "Feb",
-		"digit": "02"
-	},
-	"dayofweek" : {
-		"long": "Monday",
-		"short": "Mon"
-	},
-	"day" : {
-		"long": "10",
-		"short": "10",
-		"ordinal": "th"
-	},
-	"hour" : {
-		"long": "01",
-		"short": "1",
-		"military": "13",
-		"ampm": "pm"
-	},
-	"minute" : {
-		"long": "20",
-		"short": "20"
-	},
-	"seconds" : "31",
-	"author" : {
-		"first-name": "Author",
-		"last-name": "Name"
-	},
-	"hero": true,
-	"emergency" : false,
-	"touts" : [
-		{ },
-		{ },
-		{ }
-	],
-	"latest-posts" : [
-		{ },
-		{ },
-		{ },
-		{ },
-		{ }
-	]
+
+
+
+	"shop": {
+		"name": "ShopName",
+		"item-count": "80",
+		"avatar": "http://placehold.it/90x90",
+		"banner-narrow": "http://placehold.it/500x200",
+		"banner-wide": "http://placehold.it/760x150",
+    "product": {
+    	"name": "Product Name",
+      "price": "$100.00",
+      "img": {
+      	"tiny": "http://placehold.it/90x90",
+      	"medium": "http://placehold.it/300x300",
+      	"large": "http://placehold.it/600x600"
+      },
+      "overview": "<p>Jujubes bear claw chupa chups jelly-o candy wafer jelly beans tootsie roll. Chupa chups jujubes tootsie roll pastry. Wafer toffee dessert muffin gummi bears cookie chocolate powder macaroon. Caramels sweet roll croissant brownie carrot cake oat cake. Soufflé toffee soufflé.</p>",
+      "description": "<p>Soufflé icing oat cake caramels. Muffin pie gummies tootsie roll. Wafer sweet wafer topping candy canes.</p><p>Tiramisu powder dessert fruitcake cupcake bonbon macaroon donut. Sesame snaps lollipop dragée gummies sweet cake. Danish sugar plum marzipan halvah jelly-o chocolate cake dessert carrot cake toffee.</p><p>Cupcake brownie caramels lemon drops biscuit sugar plum candy sugar plum croissant. Bonbon danish topping jelly brownie croissant macaroon. Croissant gingerbread chocolate sweet donut marzipan. Pudding lollipop jelly.</p>"
+    }
+	}
 }

@@ -3,6 +3,8 @@ body {
 	font: 100%/1.5 $copyfamily;
 	-webkit-text-size-adjust: 100%;
 	color: $c-darkgray;
+  margin: 0;
+  padding: 0;
 }
 
 /* Images */
@@ -62,12 +64,9 @@ input, textarea {
   box-sizing: border-box;
   width: 100%;
   border: 1px solid $c-lightgray3x;
-  padding: 10px;
-  border-radius: 4px;
+  padding: ($spacer/2) $spacer;
+  border-radius: $rounded;
   font-size: 14px;
-}
-input[type="submit"] {
-  color: $c-white;
 }
 input[type="checkbox"], input[type="radio"] {
   display: inline;
@@ -78,6 +77,21 @@ input[type="color"] {
   width: 50px;
 }
 
+input[type="button"], input[type="submit"] {
+  color: $c-white;
+  font-weight: 700;
+  width: auto;
+  background: $c-blue;
+  border: 1px solid darken($c-blue, 5%);
+  box-shadow: 0 3px 3px lighten($c-blue, 15%) inset;
+  cursor: pointer;
+  &.green {
+    background: $c-green;
+  border: 1px solid darken($c-green, 5%);
+  box-shadow: 0 3px 3px lighten($c-green, 15%) inset;
+  }
+}
+
 /* Tables */
 table {
   border-collapse: collapse; 
@@ -85,7 +99,7 @@ table {
   border: none;
   background: $c-white;
   width: 100%;
-  box-shadow: 0 0 $shadow-size $c-darkgray;
+  box-shadow: 0 0 $sm-spacer $c-darkgray;
 }
 th {
   text-align: left;

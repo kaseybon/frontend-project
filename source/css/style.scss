@@ -6,11 +6,35 @@
 @import "scss/base/grid";
 
 /*------------------------------------*\
-    $MODULES
-\*------------------------------------*/
-@import "scss/modules/text";
-
-/*------------------------------------*\
     $LAYOUT
 \*------------------------------------*/
-@import "scss/layout/header";
+
+/* SITE SPECIFIC */
+@import "scss/layout/site";
+@import "scss/layout/site-header";
+@import "scss/layout/site-content";
+@import "scss/layout/site-footer";
+
+/* TEMPLATE SPECIFIC */
+@import "scss/layout/store";
+@import "scss/layout/store-header";
+@import "scss/layout/store-content";
+
+/*------------------------------------*\
+    $MODULES
+\*------------------------------------*/
+/* TEXT */
+@import "scss/modules/text";
+
+/* BLOCKS */
+@import "scss/modules/blocks";
+
+/* FORMS */
+@import "scss/modules/forms";
+@import "scss/modules/forms-newsletter";
+@import "scss/modules/forms-search";
+
+/* MENUS */
+@import "scss/modules/menus.scss";
+@import "scss/modules/menus-card-menu.scss";
+@import "scss/modules/menus-pagination.scss";

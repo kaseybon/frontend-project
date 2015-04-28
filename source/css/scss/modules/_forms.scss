@@ -1,0 +1,13 @@
+.form-inline {
+  max-width: 450px;
+  margin: auto;
+  overflow: auto;
+}
+
+input[type="submit"].forms-submit {
+  width: 100%;
+  @media (min-width: 535px) {
+    width: 120px;
+    float: left;
+  }
+}

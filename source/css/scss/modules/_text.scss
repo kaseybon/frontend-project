@@ -1,11 +1,50 @@
 /* Page Headers */
 .hgroup {
   text-align: center;
+  margin: $spacer;
+  &.favorite {
+    background: rgba($c-orange, $fade);
+    border-radius: $rounded;
+    text-align: left;
+    position: relative;
+    a {
+      display: block;
+      padding: $spacer $spacer $spacer (60px + ($spacer + $spacer));
+      &:hover {
+        text-decoration: none;
+      }
+    }
+    &:before {
+      content: url(../images/heart.svg);
+      position: absolute;
+      left: $spacer;
+      top: $spacer;
+    }
+  }
+  &.request {
+    text-align: left;
+    img {
+      max-width: 55px;
+      margin-right: 70px;
+      float: left;
+    }
+    .request-content {
+      display: block;
+      box-sizing: border-box;
+      min-height: 55px;
+      background: rgba($c-blue, $fade);
+      padding: $spacer;
+      margin-left: -55px;
+      float: left;
+      border-radius: $rounded;
+    }
+  }
 }
 .subheader {
   color: $c-mediumgray;
   font-family: $headerfamily;
   font-size: 18px;
+  margin: 0;
 }
 .page-title {
   font-size: 24px;
@@ -13,28 +52,4 @@
 .page-breadcrumbs {
   display: block;
   font-size: 16px;
-}
-
-/* Product Elements */
-.product-price {
-  font-size: 14px;
-  color: green;
-  display: block;
-}
-.product-shop {
-  font-size: 14px;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  color: $c-mediumgray;
-  display: block;  
-    float: left;
-    width: 50%;
-}
-
-/* Menu */
-.menu-title {
-  font-weight: 400;
-  font-family: $copyfamily;
-  font-size: 14px;
 }

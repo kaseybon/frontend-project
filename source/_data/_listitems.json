@@ -1,0 +1,23 @@
+{
+	"1": {
+  	"name": "Product Name",
+    "price": "$100.00",
+    "img": {
+    	"tiny": "http://placehold.it/90x90",
+    	"medium": "http://placehold.it/300x300",
+    	"large": "http://placehold.it/600x600"
+    },
+    "overview": "Jujubes bear claw chupa chups jelly-o candy wafer jelly beans tootsie roll. Chupa chups jujubes tootsie roll pastry. Wafer toffee dessert muffin gummi bears cookie chocolate powder macaroon. Caramels sweet roll croissant brownie carrot cake oat cake. Soufflé toffee soufflé."
+	},
+	"2": {
+  	"name": "Product Name",
+    "price": "$100.00",
+    "img": {
+    	"tiny": "http://placehold.it/90x90",
+    	"medium": "http://placehold.it/300x300",
+    	"large": "http://placehold.it/600x600"
+    },
+    "overview": "Jujubes bear claw chupa chups jelly-o candy wafer jelly beans tootsie roll. Chupa chups jujubes tootsie roll pastry. Wafer toffee dessert muffin gummi bears cookie chocolate powder macaroon. Caramels sweet roll croissant brownie carrot cake oat cake. Soufflé toffee soufflé."
+    }
+	}
+}

@@ -1,0 +1,18 @@
+/* Card Menu */
+.card-menu-title, .card-menu-item a {
+  display: block;
+  padding: $sm-spacer;
+  border-bottom: 1px solid $c-lightgray3x;
+}
+.card-menu-item a {
+  font-size: 14px;
+  &:hover {
+    background: rgba($c-blue, $fade);
+    text-decoration: none;
+  }
+}
+.card-menu-count {
+  font-size: 12px;
+  color: $c-mediumgray;
+  padding-left: 10px;
+}

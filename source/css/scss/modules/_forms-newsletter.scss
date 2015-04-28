@@ -1,0 +1,25 @@
+/* Newsletter Form */
+.newsletter-form {
+  margin: $spacer 0;
+  border: $sm-spacer solid $c-lightgray2x;
+  padding: $spacer;
+  text-align: center;
+}
+.newsletter-input {
+  margin-bottom: $spacer;
+}
+.newsletter-title {
+  margin-bottom: $spacer;
+}
+
+
+@media (min-width: 535px) {
+  .newsletter-input {
+    width: 315px;
+    margin-right: $spacer;
+    float: left;
+  }
+  input[type="submit"].newsletter-submit {
+    
+  }
+}

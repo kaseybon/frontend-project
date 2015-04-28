@@ -1,0 +1,88 @@
+/* Card Block */
+.card-block {
+  margin: $spacer;
+  padding: $sm-spacer;
+  background: $c-white;
+  border-radius: $rounded;
+  box-shadow: $shadow;
+  max-width: 300px;
+}
+
+
+.card-info {
+  background: $c-white;
+  box-shadow: $shadow;
+  border-radius: $rounded;
+  padding: 5px;
+  overflow: auto;
+}
+.card-price {
+  font-size: 14px;
+  color: $c-green;
+  display: block;
+  text-align: right;
+}
+.card-title, .card-link {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: $copyfamily;
+  color: $c-darkgray;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 0 10px 0;
+  line-height: 20px;
+}
+.card-shop {
+  font-size: 14px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  color: $c-mediumgray;
+  display: block;  
+    float: left;
+    width: 50%;
+}
+
+/* Shop Block */
+.shop-block {
+  padding: $spacer;
+}
+
+/* Description Block */
+.description-wrapper {
+  padding: $sm-spacer;
+  background: rgba($c-green, $fade);
+  border-radius: $rounded;
+  box-sizing: border-box;
+  margin: $spacer;
+  .description-cta {
+    width: 100%;
+  }
+}
+.description {
+  background: $c-white;
+  padding: $spacer;
+  border-radius: $rounded;
+}
+.description-spacing {
+  margin: $sm-spacer;
+}
+.description-price {
+  font-size: 18px;
+  line-height: 50px;
+  color: $c-green;
+}
+
+/* Product Img Block */
+.product-img-block {
+  margin: 0;
+  padding: $spacer;
+  list-style-type: none;
+}
+.product-img-item {
+ display: inline-block;
+}
+.is-active-img img {
+  width: 100%;
+}
